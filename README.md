@@ -2,4 +2,5 @@
 
 ## Commands to Run 
 `mvn clean package`
+
 `docker build -t spring-boot-app .`
