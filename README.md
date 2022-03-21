@@ -1,5 +1,7 @@
 ### Deploying a Spring Boot application to a local Kubernetes 
 
+
+
 ### Commands to Run 
 `mvn clean package`
 
@@ -17,5 +19,5 @@
 
 `kubectl apply -f deployment.yml`
 
-#### Test if application is deployed succesfully
+#### Test if application is deployed succesfully.
 `curl -v http://localhost:31000/api/messages`
